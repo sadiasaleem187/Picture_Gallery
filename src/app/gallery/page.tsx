@@ -32,4 +32,4 @@ let res = (await  cloudinary.v2.search
   )
 }
 
-export default Gallery
+export default Gallery;

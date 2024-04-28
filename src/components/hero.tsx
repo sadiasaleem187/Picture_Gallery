@@ -4,7 +4,7 @@ import Image from 'next/image'
     const Hero = () => {
      return (
      <div className='min-h-screen flex justify-center items-center'>
-     <img src={"/img.jpg"} alt='bg-image' className='object-cover w-full h-screen opacity-45' />
+     <Image src={"/img.jpg"} alt='bg-image' className='object-cover w-full h-screen opacity-45' />
      <div className='absolute flex flex-col justify-center items-center space-y-6'>
      <h1 className='text-3xl md:text-4xl lg:text-5xl text-[hashtag#e81f10]'>Picture Gallery</h1>
     
